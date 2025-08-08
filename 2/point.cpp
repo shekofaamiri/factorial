@@ -38,3 +38,14 @@ void Point::print()
 {
     cout << x << y << endl;
 }
+int main()
+{
+    Point p;
+    p.set_x(3);
+    p.set_y(4);
+
+    cout << "x: " << p.get_x() << endl;
+    cout << "y: " << p.get_y() << endl;
+
+    return 0;
+}
